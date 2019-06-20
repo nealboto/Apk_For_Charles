@@ -96,9 +96,7 @@ def main_run(script,apk_path):
 if __name__ == "__main__":
 	script_file_path = os.getcwd()
 	script,apk_path = argv
-
-	# script, apk_path = '/Users/uc/Desktop/Apk_For_Charles/Apk_For_Charles.py', r'/Users/uc/Desktop/Apk_For_Charles/9appsa.apk'
-
+    
 	main_run(script,apk_path)
 
 
